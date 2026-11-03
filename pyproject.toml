@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anistream"
+version = "0.1.8"
+description = "Stream anime from multiple ani-cli-rs catalogs, with automatic matching and optional AniList progress sync."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+anistream = "anistream.cli:main"
+
+[tool.setuptools]
+packages = ["anistream"]
+
+[tool.setuptools.package-data]
+anistream = ["progress.lua"]
