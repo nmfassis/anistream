@@ -27,7 +27,7 @@ its own window or **inside the terminal** (sixel, the way the yt-terminal port d
 **One line** (Git Bash on Windows, or Linux/macOS). It needs Python 3.8+ and sets up the `anistream` command, no pip involved:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_GITHUB_USER/anistream/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/nmfassis/anistream/main/install.sh | bash
 ```
 
 From a clone, `bash install.sh` does the same with the local files; `bash install.sh --uninstall` removes it. Re-running updates in place.
